@@ -7,6 +7,8 @@ Revision history for Rex
  - Fix warning about redundant arguments when using sync with key
  authentication
  - Fix setting distributor when versioned feature flags are active
+ - Remove default host of test tasks
+ - Fix task hooks specified in Rexfile for tasks defined in modules
 
  [DOCUMENTATION]
  - Clarify sudo usage for multiple commands
@@ -16,6 +18,7 @@ Revision history for Rex
 
  [ENHANCEMENTS]
  - Add on_change option for mkdir
+ - Support package globs on FreeBSD
 
  [MAJOR]
 
@@ -24,6 +27,7 @@ Revision history for Rex
  [NEW FEATURES]
  - Add new configuration option to control attaching default authentication
  info to tasks
+ - Initial support for package globs
 
  [REVISION]
 
